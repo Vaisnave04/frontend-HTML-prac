@@ -14,6 +14,7 @@
                 <ul>
                     <li><a href="#ch4">Chapter 4</a> </li>
                     <li><a href="#ch5">Chapter 5</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
             <hr>
@@ -26,7 +27,7 @@
             <h3>Hello World!</h3>
             <p>This is my first page in html.. &nbsp; I am practising html</p>
             <img src="img/tree.jpg" alt="Tree Image" width="500" height="500">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br>
             <figure>
             <img src="img/free-nature-images.jpg" title="Tree" alt="Tree Image" width="500" height="500" loading="lazy">
             <figcaption>Tree--Image</figcaption>
@@ -34,26 +35,202 @@
             <code>&lt;h1&gt;Hello World &lt;/h1&gt; </code>
             <hr>
             <section id="ch4">
+                <p>I was in chapter 4</p>
+
                 <dl>
-                    <p>I was in chapter 4</p>
                     <dt><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Aritficial Intelligence</a></dt><dd>AI</dd>
                     <dt>Blockchain</dt><dd> BC</dd>
                     <dt>Internet of Things </dt><dd>IoT</dd>
-                <dl>
+                </dl>
                 <p>I learn from <abbr title = "Morzilla Development Network">MDN</abbr> network</p>
             </section>
             <hr>
             <section id="ch5">
+                <p>I am in chapter 5</p>
                 <dl>
-                    <p>I am in chapter 5</p>
+                    
                     <dt><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Aritficial Intelligence</a></dt><dd>AI</dd>
                     <dt>Blockchain</dt><dd> BC</dd>
                     <dt>Internet of Things </dt><dd>IoT</dd>
-                <dl>
+                </dl>
                 <p>I learn from <abbr title = "Morzilla Development Network">MDN</abbr> network</p>
             </section>
+            <aside>
+                <details>
+                    <summary>Front-end is easy to learn.<mark>I like learning HTML</mark></summary>
+                    <p> Everday I learn <time datetime="06:00"> 6 pm</time> in the evening.</p>
+                </details>
+            </aside>
+            <br>
+            <section>
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td><time datetime="08:00">8 am</time>-<time datetime="11:00">-11 am</time></td>
+                            <td>Learn Code</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td><time datetime="11:00">11 am</time><time datetime="12:00">-12 am</time></td>
+                            <td>Practice Code</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td colspan="2">Free time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td rowspan="2">Other time</td>
+                            <td>Travel time</td>
+                        </tr>
+                        
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep time</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot >
+                        <tr >
+                            <td colspan="3">Learn, Code, Solve Problem</td>
+                        </tr>
+                    </tfoot>
+
+                        
+                    
+                    
+
+                </table>
+            </section>
+            <hr>
+        </article>
+        <article id="contact">
+            <h2>Contact me</h2>
+            <p>I would like to hear from you..</p>
+            <form action="https://httpbin.org/get", method="get">
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <p>
+                    <label for="firstName">FirstName : </label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Enter your First Name" autocomplete="on" required>
+                    </p>
+                    <p>
+                    <label for="lastName">LastName : </label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name" autocomplete="on" required>
+                    </p>
+                    <p>
+                    <label for="password">Password : </label> 
+                    <input type="password" name="password" id="password" placeholder="Enter your Password"  required>
+                    </p>
+                    <p>
+                    <label for="phone"> Phone no : </label> 
+                    <input type="tel" name="phone" id="phone" placeholder="91-99999-99999"  required pattern="[0-9]{2}-[0-9]{5}-[0-9]{5}">
+                    </p>
+                    <p>
+                    <label for="decade"> Fav decade : </label> 
+                    <input type="number" name="deacde" id="decade" min="1950" max="2050" val="2000" step="10">
+                    </p>
+                    <!-- <p>
+                        <label for="content">Fav Ice-cream : </label>
+                        <select name="content" id="content" multiple size="5">
+                            <optgroup label="Single Flavour">
+                            <option value="chocolate">chocolate</option>
+                            <option value="Vannila" selected>Vannila</option>
+                            <option value="Buttercotch">Buttercotch</option>
+                            <option value="Blackcurrent">Blackcurrent</option>
+                            <option value="Strawberry">Strawberry</option>
+                            <option value="Pista">Pista</option>
+                        </optgroup>
+                        <optgroup label="Double-flavour">
+                            <option value="chocolate--m">chocolate With Milk</option>
+                            <option value="Vannila--c">Vannila With Chocolate</option>
+
+                        </optgroup>
+
+                            
+                        </select>
+                    </p> -->
+                    <p>
+                        <label for="content">Fav Ice-cream : </label>
+                        <input type="text" name="content" id="content" list="content-list">
+                        <datalist id="content-list">
+                        
+                            <optgroup label="Single Flavour">
+                            <option value="chocolate">chocolate</option>
+                            <option value="Vannila" selected>Vannila</option>
+                            <option value="Buttercotch">Buttercotch</option>
+                            <option value="Blackcurrent">Blackcurrent</option>
+                            <option value="Strawberry">Strawberry</option>
+                            <option value="Pista">Pista</option>
+                        </optgroup>
+                        <optgroup label="Double-flavour">
+                            <option value="chocolate--m">chocolate With Milk</option>
+                            <option value="Vannila--c">Vannila With Chocolate</option>
+
+                        </optgroup>
+                        </datalist>
+
+                            
+                        
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Food List</legend>
+                    <p>
+                        <input type="radio" name="food" id="chicken" value="chicken">
+                        <label for="chicken">Chicken</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="Mutton" value="Mutton">
+                        <label for="Mutton">Mutton</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Fav List</legend>
+                    <p>
+                        <input type="checkbox" name="food" id="chicken" value="chicken">
+                        <label for="chicken">Chicken</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="food" id="Mutton" value="Mutton">
+                        <label for="Mutton">Mutton</label>
+                    </p>
+                </fieldset>
+
+                <br>
+                <fieldset>
+                    <legend>Send me a note</legend>
+                    <label for="message">Your Message</label>
+                    <p>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message"></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
+
+
+            </form>
+
         </article>
     </main>
+    <br>
     <footer>
         <address>Triunelveli</address>
         <!--Have to specify full address-->
